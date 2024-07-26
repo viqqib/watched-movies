@@ -29,7 +29,7 @@ const MovieCard = () => {
                 <div className="space-y-1">
                     <div className="text-[0.375rem] flex items-center">
                             <FontAwesomeIcon icon={faCalendarDays} size="2x" className="text-blue-500" />
-                            <span className="text-[0.5rem]">January 4 2024</span>
+
                     </div>
                    
 
