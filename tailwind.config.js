@@ -9,7 +9,8 @@ module.exports = {
     extend: {
       colors: {
         redmov: '#EC5051', // Add your custom color here
-        primary: '#495458'
+        primary: '#495458',
+        secondary: '#7FB0BE',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
