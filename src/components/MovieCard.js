@@ -29,7 +29,7 @@ const MovieCard = () => {
                 <div className="space-y-1">
                     <div className="text-[0.375rem] flex items-center">
                             <FontAwesomeIcon icon={faCalendarDays} size="2x" className="text-blue-500" />
-                            <FontAwesomeIcon icon={faStar} />
+                   
 
                     </div>
                    
