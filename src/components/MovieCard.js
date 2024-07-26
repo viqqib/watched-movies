@@ -2,7 +2,7 @@
 import React from "react"
 import Image from "next/image"
 import Link from "next/link"
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { FontAwesomeIcon, } from '@fortawesome/react-fontawesome';
 import { faCalendarDays, faStar } from "@fortawesome/free-solid-svg-icons";
 import { faCoffee } from '@fortawesome/free-solid-svg-icons';
 
@@ -29,6 +29,7 @@ const MovieCard = () => {
                 <div className="space-y-1">
                     <div className="text-[0.375rem] flex items-center">
                             <FontAwesomeIcon icon={faCalendarDays} size="2x" className="text-blue-500" />
+                            <FontAwesomeIcon icon={faStar} />
 
                     </div>
                    
