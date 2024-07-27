@@ -12,6 +12,9 @@ module.exports = {
         primary: '#495458',
         secondary: '#7FB0BE',
       },
+      boxShadow: {
+        'custom-light': '0px 2px 8px rgba(99, 99, 99, 0.2)',
+      },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":

@@ -40,9 +40,9 @@ export default function Home() {
           <button className="py-2 w-14 bg-gray-200 rounded-md"></button>
           <button className="py-2 w-14 bg-gray-200 rounded-md"></button>
         </div>
-        <div className="px-5 mt-5">
+        <div className="px-5 mt-5 md:flex md:flex-wrap md:gap-5" >
           {movies.map((movie, index) => (
-            <div className="mt-7 moviecard" key={index}>
+            <div className="mt-2 moviecard" key={index}>
               <MovieCard movie={movie} />
             </div>
           ))}
