@@ -41,6 +41,18 @@ const movieData = [
           rate: 7.5,
           note: 'Note about The Amazing Spider-Man 2'
         },
+        {
+          title: "Everything Everywhere All At Once",
+          date: '2021-02-24',
+          rate: 7.5,
+          note: 'Note about The Amazing Spider-Man 2'
+        },
+        {
+          title: "Parasite",
+          date: '2021-02-24',
+          rate: 7.5,
+          note: 'Note about The Amazing Spider-Man 2'
+        },
         
   ];
   

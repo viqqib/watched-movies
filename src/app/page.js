@@ -35,14 +35,14 @@ export default function Home() {
     <>
       <Header />
       <div className="min-h-screen">
-        <div className="px-5 mt-1 flex w-full gap-2">
-          <input type="text" className="py-2 px-2 w-full rounded-md bg-gray-200" name="" id="" />
-          <button className="py-2 w-14 bg-gray-200 rounded-md"></button>
-          <button className="py-2 w-14 bg-gray-200 rounded-md"></button>
+        <div className="px-5 mt-1 flex w-full gap-2 md:px-36">
+          <input type="text" className="h-10 px-3 w-72  rounded-md bg-gray-200" name="" id="" />
+          <button className="h-10 w-10 bg-gray-200 rounded-md"></button>
+          <button className="h-10 w-10 bg-gray-200 rounded-md"></button>
         </div>
-        <div className="px-5 mt-5 md:flex md:flex-wrap md:gap-5" >
+        <div className=" justify-center px-5 mt-5 md:flex md:flex-wrap md:gap-5" >
           {movies.map((movie, index) => (
-            <div className="mt-2 moviecard" key={index}>
+            <div className="mt-5 md:mt-2 moviecard" key={index}>
               <MovieCard movie={movie} />
             </div>
           ))}
